@@ -23,4 +23,4 @@ ENV USER=codewarrior \
 WORKDIR /workspace
 
 # Testest Forth test framework
-RUN wget -q https://raw.githubusercontent.com/codewars/ttester-codewars/v1.0.0/testest.4th
+RUN wget -q https://raw.githubusercontent.com/codewars/ttester-codewars/v1.1.0/testest.4th
