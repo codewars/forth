@@ -2,7 +2,7 @@
 set -eu
 
 W=/workspace
-FILES="preloaded.4th solution.4th ttester-codewars.4th tests.4th"
+FILES="preloaded.4th solution.4th testest.4th tests.4th"
 # Create container
 C=$(docker container create --rm -w $W ghcr.io/codewars/forth:latest sh -c "gforth $FILES -e bye")
 

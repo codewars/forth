@@ -22,5 +22,5 @@ ENV USER=codewarrior \
     HOME=/home/codewarrior
 WORKDIR /workspace
 
-# `ttester-codewars.4th` contains words to make test output in Codewars format.
-RUN wget -q https://raw.githubusercontent.com/codewars/ttester-codewars/v0.0.4/ttester-codewars.4th
+# Testest Forth test framework
+RUN wget -q https://raw.githubusercontent.com/codewars/ttester-codewars/v1.0.0/testest.4th
