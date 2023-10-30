@@ -23,7 +23,7 @@ ENV USER=codewarrior \
 WORKDIR /workspace
 
 # Testest Forth test framework
-RUN wget -q https://raw.githubusercontent.com/codewars/ttester-codewars/v1.1.1/preamble.4th
-RUN wget -q https://raw.githubusercontent.com/codewars/ttester-codewars/v1.1.1/protect.4th
-RUN wget -q https://raw.githubusercontent.com/codewars/ttester-codewars/v1.1.1/prepare.4th
-RUN wget -q https://raw.githubusercontent.com/codewars/ttester-codewars/v1.1.1/testest.4th
+RUN wget -q https://raw.githubusercontent.com/codewars/ttester-codewars/v1.1.2/preamble.4th
+RUN wget -q https://raw.githubusercontent.com/codewars/ttester-codewars/v1.1.2/protect.4th
+RUN wget -q https://raw.githubusercontent.com/codewars/ttester-codewars/v1.1.2/prepare.4th
+RUN wget -q https://raw.githubusercontent.com/codewars/ttester-codewars/v1.1.2/testest.4th
